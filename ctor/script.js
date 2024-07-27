@@ -6,7 +6,7 @@ function Movie(title, director, releaseYear, genre, baxmishammi, rating) {
     this.baxmishammi = baxmishammi;
     this.rating = rating;
     this.getInfo=function () {
-        console.log(`today I watched ${title} movie, director is ${director}, it release year is ${releaseYear} and I rated it ${rating} points`);
+        console.log(`today I watched ${this.title} movie, director is ${this.director}, it release year is ${this.releaseYear} and I rated it ${this.rating} points`);
     }
 }
 
